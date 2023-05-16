@@ -77,3 +77,44 @@ If you want to contact me, you can reach me through below handles.
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+
+
+1.make sure every file is transfered
+2. inside the main directory run 
+```
+npm i
+```
+3. go to the frontend folder and run
+```
+npm i
+```
+
+4. go to config folder and make a .env file
+paste the below lines inside the file
+```
+PORT=4000
+MONGO_URI=mongodb+srv://deepu:deepu@cluster0.wzknviy.mongodb.net/?retryWrites=true&w=majority
+JWT_SECRET=WFFWf15115U842UGUBWF81EE858UYBY51BGBJ5E51Q
+JWT_EXPIRE=7d
+COOKIE_EXPIRE=5
+CLOUDINARY_NAME=dddpbs9xx
+CLOUDINARY_API_KEY=567257235318796
+CLOUDINARY_API_SECRET=bjgmYGYAOtYOL3e7M3cHX90YWuw
+
+PAYTM_MID=dgfg515451514451
+PAYTM_MERCHANT_KEY=848dvdvdv848dv
+PAYTM_WEBSITE=WEBSTAGING
+PAYTM_CHANNEL_ID=WEB
+PAYTM_INDUSTRY_TYPE=Retail
+PAYTM_CUST_ID=dgfg515451514451
+
+NODE_ENV=development
+```
+5. go to frontend and run 
+```
+npm start
+```
+6.  go to backend and run 
+```
+npm start
+```
