@@ -89,7 +89,7 @@ npm i
 npm i
 ```
 
-4. go to config folder and make a .env file
+4. go to config folder and make a config.env file
 paste the below lines inside the file
 ```
 PORT=4000
